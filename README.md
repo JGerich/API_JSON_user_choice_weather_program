@@ -1,5 +1,7 @@
 # API_JSON_user_choice_weather_program
- Simple Weather Data Fetcher using OpenWeatherMap API and JSON allowing user to choose location.
+Simple Weather Data Fetcher using OpenWeatherMap API and JSON allowing user to input location.
+
+This Python program fetches and displays the current weather for a user-specified city using the OpenWeatherMap API. It allows the user to choose between metric (°C) and imperial (°F) units for temperature display. The program handles API responses, validates user input, and prints the temperature, daily high, and low values in the selected unit system.
 
 ##  This code demonstrates object-oriented programming principles by encapsulating city-specific weather data and behavior within the City class. ##
 
@@ -9,7 +11,6 @@ Users can input different location parameters to access weather details, includi
 - City name
 - Latitude and Longitude (geographical coordinates to retrieve location-specific weather details)
 
-The program will display the current temperature, the high temperature for the day, and the low temperature for the day.
 
 # To use this program, sign up for a free API key at OpenWeatherMap at https://home.openweathermap.org/users/sign_up.
 Once you have the API key, it can be used to request weather data via the OpenWeatherMap API endpoints.
