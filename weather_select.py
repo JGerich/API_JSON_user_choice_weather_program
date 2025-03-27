@@ -10,7 +10,7 @@ class City:
         try:
             # Fetch weather data for the city
             response = requests.get(
-                f"https://api.openweathermap.org/data/2.5/weather?units={self.units}&q={self.name}&appid=dbde96c32cbcfb2ca75953af363713f6"
+                f"https://api.openweathermap.org/data/2.5/weather?units={self.units}&q={self.name}&appid={API_KEY}"
             )
             response.raise_for_status()  # Raise an error for bad responses
         except requests.exceptions.RequestException as e:
